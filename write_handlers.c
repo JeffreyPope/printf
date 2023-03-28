@@ -3,7 +3,7 @@
 /*** WRITE HANDLE ***/
 
 /**
- * handle_write_char – function prints a string
+ * handle_write_char - function prints a string
  * @c: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
@@ -47,7 +47,7 @@ int handle_write_char(char c, char buffer[],
 
 /*** WRITE NUMBER ***/
 /**
- * write_number – this prints a string
+ * write_number - this prints a string
  * @is_negative: Lista of arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
@@ -139,7 +139,7 @@ int write_num(int ind, char buffer[],
 }
 
 /**
- * write_unsgnd – this writes an unsigned number
+ * write_unsgnd - this writes an unsigned number
  * @is_negative: Number indicating if the num is negative
  * @ind: Index at which the number starts in the buffer
  * @buffer: Array of chars
@@ -197,7 +197,7 @@ int write_unsgnd(int is_negative, int ind,
 }
 
 /**
- * write_pointer – this writes a memory address
+ * write_pointer - this writes a memory address
  * @buffer: Arrays of chars
  * @ind: Index at which the number starts in the buffer
  * @length: Length of number
